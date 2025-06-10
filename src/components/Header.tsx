@@ -18,7 +18,7 @@ export function Header() {
               <Music className="h-8 w-8 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">КырМузыка</h1>
+              <h1 className="text-2xl font-bold text-gray-900">KGMusic</h1>
               <p className="text-sm text-emerald-600 font-medium">Традиционные инструменты</p>
             </div>
           </Link>

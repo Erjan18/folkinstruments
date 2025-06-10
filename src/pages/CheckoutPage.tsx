@@ -506,7 +506,7 @@ export function CheckoutPage() {
                       <h3 className="font-medium text-gray-900 text-sm">{instrument.name}</h3>
                       <p className="text-sm text-gray-600">Количество: {quantity}</p>
                       <p className="text-sm font-semibold text-gray-900">
-                        {(instrument.price * quantity).toLocaleString('ru-RU')} ₽
+                        {(instrument.price * quantity).toLocaleString('ru-RU')} сом
                       </p>
                     </div>
                   </div>
@@ -516,7 +516,7 @@ export function CheckoutPage() {
               <div className="border-t pt-4 space-y-2">
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Товары ({getCartItemsCount()}):</span>
-                  <span className="font-medium">{getCartTotal().toLocaleString('ru-RU')} ₽</span>
+                  <span className="font-medium">{getCartTotal().toLocaleString('ru-RU')} сом</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Доставка:</span>
@@ -524,7 +524,7 @@ export function CheckoutPage() {
                 </div>
                 <div className="flex justify-between text-lg font-bold pt-2 border-t">
                   <span>Итого:</span>
-                  <span className="text-emerald-600">{getCartTotal().toLocaleString('ru-RU')} ₽</span>
+                  <span className="text-emerald-600">{getCartTotal().toLocaleString('ru-RU')} сом</span>
                 </div>
               </div>
 

@@ -98,17 +98,17 @@ export function InstrumentCard({ instrument }: InstrumentCardProps) {
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold text-gray-900">
-                  {instrument.price.toLocaleString('ru-RU')} ₽
+                  {instrument.price.toLocaleString('ru-RU')} сом
                 </span>
                 {instrument.originalPrice && (
                   <span className="text-lg text-gray-500 line-through">
-                    {instrument.originalPrice.toLocaleString('ru-RU')} ₽
+                    {instrument.originalPrice.toLocaleString('ru-RU')} сом
                   </span>
                 )}
               </div>
               {instrument.originalPrice && (
                 <span className="text-sm text-green-600 font-medium">
-                  Экономия {(instrument.originalPrice - instrument.price).toLocaleString('ru-RU')} ₽
+                  Экономия {(instrument.originalPrice - instrument.price).toLocaleString('ru-RU')} сом
                 </span>
               )}
             </div>

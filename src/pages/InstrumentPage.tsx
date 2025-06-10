@@ -94,15 +94,15 @@ export function InstrumentPage() {
               {/* Price */}
               <div className="flex items-center gap-4 mb-6">
                 <span className="text-4xl font-bold text-gray-900">
-                  {instrument.price.toLocaleString('ru-RU')} ₽
+                  {instrument.price.toLocaleString('ru-RU')} сом
                 </span>
                 {instrument.originalPrice && (
                   <div className="flex flex-col">
                     <span className="text-2xl text-gray-500 line-through">
-                      {instrument.originalPrice.toLocaleString('ru-RU')} ₽
+                      {instrument.originalPrice.toLocaleString('ru-RU')} сом
                     </span>
                     <span className="text-sm text-green-600 font-medium">
-                      Экономия {(instrument.originalPrice - instrument.price).toLocaleString('ru-RU')} ₽
+                      Экономия {(instrument.originalPrice - instrument.price).toLocaleString('ru-RU')} сом
                     </span>
                   </div>
                 )}

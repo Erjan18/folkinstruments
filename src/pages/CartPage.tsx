@@ -70,7 +70,7 @@ export function CartPage() {
                          instrument.type === 'wind' ? 'Духовой' : 'Ударный'}
                       </p>
                       <p className="text-2xl font-bold text-gray-900">
-                        {instrument.price.toLocaleString('ru-RU')} ₽
+                        {instrument.price.toLocaleString('ru-RU')} сом
                       </p>
                     </div>
 
@@ -107,7 +107,7 @@ export function CartPage() {
                   {/* Subtotal */}
                   <div className="mt-4 text-right">
                     <span className="text-lg font-semibold text-gray-900">
-                      Итого: {(instrument.price * quantity).toLocaleString('ru-RU')} ₽
+                      Итого: {(instrument.price * quantity).toLocaleString('ru-RU')} сом
                     </span>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export function CartPage() {
               <div className="text-right">
                 <p className="text-sm text-gray-600 mb-1">Общая стоимость:</p>
                 <p className="text-3xl font-bold text-gray-900">
-                  {getCartTotal().toLocaleString('ru-RU')} ₽
+                  {getCartTotal().toLocaleString('ru-RU')} сом
                 </p>
               </div>
               

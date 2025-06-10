@@ -13,7 +13,7 @@ export function Footer() {
                 <Music className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold">КырМузыка</h3>
+                <h3 className="text-2xl font-bold">KGMusic</h3>
                 <p className="text-emerald-400 font-medium">Традиционные инструменты</p>
               </div>
             </div>
